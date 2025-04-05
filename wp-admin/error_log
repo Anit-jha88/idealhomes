@@ -1,0 +1,56 @@
+[23-Mar-2025 15:22:01 UTC] PHP Fatal error:  Cannot redeclare add_extra_column_after_title() (previously declared in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php:657) in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 700
+[23-Mar-2025 15:36:52 UTC] PHP Warning:  Undefined variable $key in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 658
+[23-Mar-2025 16:32:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php:712
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/class-wp-hook.php(324): populate_extra_column_after_title('custom_taxonomy...', 97)
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(1403): do_action('manage_property...', 'custom_taxonomy...', 97)
+#4 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1802): WP_Posts_List_Table->column_default(Object(WP_Post), 'custom_taxonomy...')
+#5 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(1437): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(941): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(813): WP_Posts_List_Table->_display_rows_hierarchical(Array, 1, 20)
+#8 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1712): WP_Posts_List_Table->display_rows()
+#9 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#10 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/edit.php(503): WP_List_Table->display()
+#11 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 712
+[23-Mar-2025 16:33:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php:712
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/class-wp-hook.php(324): populate_extra_column_after_title('custom_taxonomy...', 97)
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(1403): do_action('manage_property...', 'custom_taxonomy...', 97)
+#4 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1802): WP_Posts_List_Table->column_default(Object(WP_Post), 'custom_taxonomy...')
+#5 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(1437): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(941): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(813): WP_Posts_List_Table->_display_rows_hierarchical(Array, 1, 20)
+#8 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1712): WP_Posts_List_Table->display_rows()
+#9 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#10 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/edit.php(503): WP_List_Table->display()
+#11 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 712
+[23-Mar-2025 16:33:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_field() in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php:712
+Stack trace:
+#0 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/class-wp-hook.php(324): populate_extra_column_after_title('custom_taxonomy...', 97)
+#1 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#2 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#3 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(1403): do_action('manage_property...', 'custom_taxonomy...', 97)
+#4 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1802): WP_Posts_List_Table->column_default(Object(WP_Post), 'custom_taxonomy...')
+#5 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(1437): WP_List_Table->single_row_columns(Object(WP_Post))
+#6 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(941): WP_Posts_List_Table->single_row(Object(WP_Post), 0)
+#7 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-posts-list-table.php(813): WP_Posts_List_Table->_display_rows_hierarchical(Array, 1, 20)
+#8 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1712): WP_Posts_List_Table->display_rows()
+#9 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/includes/class-wp-list-table.php(1639): WP_List_Table->display_rows_or_placeholder()
+#10 /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-admin/edit.php(503): WP_List_Table->display()
+#11 {main}
+  thrown in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 712
+[26-Mar-2025 18:54:05 UTC] PHP Warning:  Undefined variable $query in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 869
+[26-Mar-2025 18:54:14 UTC] PHP Warning:  Undefined variable $query in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 869
+[26-Mar-2025 18:54:54 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 889
+[26-Mar-2025 18:54:58 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 889
+[26-Mar-2025 18:55:10 UTC] PHP Parse error:  syntax error, unexpected token ";", expecting ")" in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 889
+[26-Mar-2025 19:24:37 UTC] PHP Parse error:  syntax error, unexpected token "else" in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 907
+[26-Mar-2025 19:25:04 UTC] PHP Parse error:  syntax error, unexpected token "else" in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/themes/Idealhomes/functions.php on line 907
+[28-Mar-2025 05:11:07 UTC] PHP Warning:  Undefined array key "url" in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-helpers.php on line 2921
+[28-Mar-2025 05:11:08 UTC] PHP Warning:  Undefined array key "url" in /home2/mkstecfw/demo.mkstechnosoft.com/idealhomes/dev/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-helpers.php on line 2921

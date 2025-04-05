@@ -1,0 +1,4 @@
+[12-Jan-2025 03:51:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home2/mkstecfw/vishwajhanani.org.in/wp-content/themes/vishwajhanani/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home2/mkstecfw/vishwajhanani.org.in/wp-content/themes/vishwajhanani/index.php on line 17
